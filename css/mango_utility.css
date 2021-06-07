@@ -1,0 +1,140 @@
+/* Text Colors */
+.text-primary{
+    color: rgb(236, 177, 12);
+}
+.text-secondary{
+    color: #0284d0;
+}
+.btn{
+    background:rgba(236, 177, 12,0.9);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.btn:hover{
+    opacity:0.9;
+}
+
+.btn-primary,.bg-primary{
+    background: rgba(236, 177, 12,1);
+    color: #fff;
+}
+.btn-secondary, .bg-secondary{
+    background:#0284d0;
+    color: #fff;
+}
+.btn-dark, .bg-dark{
+    background:#333;
+    color: #fff;
+}
+.btn-light, .bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* section header */
+.section-header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    padding: 30px;
+
+}
+.section-header h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.section-padding{
+    padding: 20px 20px 40px;
+}
+
+/* flex-columns */
+
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+
+}
+
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column{
+    display: flex;
+    flex-direction:column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-columns .column .column-1,
+.flex-columns .column .column-2{
+    height: 100%;
+
+}
+.flex-columns img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2{
+   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    
+    padding: 30px;
+    
+
+}
+.btn-outline{
+    border:white 1px solid;
+    border-radius: 5px;
+}
+
+.flex-columns h4{
+    margin-bottom:10px ;
+}
+.flex-columns h2{
+    font-size:40px;
+   font-weight: 100;
+}
+
+.flex-columns p{
+    margin: 20px 0px;
+}
+
+/* flex-grid */
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+
+}
+.flex-grid .row .column{
+        
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+       
+}
+
+/* VIDEO */
+
+/* .myvideo{
+    min-width:100%;
+    min-height: 100vh;
+    position: fixed;
+    opacity:1;
+    top:-50px;
+    z-index: -10;
+    opacity: 1;
+    
+    
+} */
